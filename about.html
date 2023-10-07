@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Page</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <!-- nav  -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <h1>BonApetit</h1>
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> Home </a>
+        <a href="about.html" class="nav-link"> About </a>
+        <a href="tags.html" class="nav-link"> Tags </a>
+        <a href="recipes.html" class="nav-link"> Recipes </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> Contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav -->
+  <main class="page">
+    <section class="about-page">
+      <article>
+        <h2>Generational Delights: Treasured Recipes Passed Down Through Time</h2>
+        <p>
+          Discover the culinary treasures of generations past with our collection of recipes learned from mothers, grandmothers, and their ancestors. 
+          These dishes have stood the test of time, carrying with them the love, tradition, and flavors of family heritage. 
+          Explore the richness of these time-honored recipes and bring a taste of history to your kitchen today.
+        </p>
+        <a href="contact.html" class="btn"> Contact </a>
+      </article>
+      <!-- needs fixes -->
+      <img src="about.jpg" alt="cookies" class="img about-img" />
+    </section>
+    <section class="featured-recipes">
+      <h5 class="featured-title">Perfect Recipes!</h5>
+      <div class="recipes-list">
+        <!-- single recipe -->
+        <a href="single-recipe-1.html" class="recipe">
+          <img src="recipe-1.jpg" class="img recipe-img" alt="" />
+          <h5>Carrot Halwa</h5>
+          <p>Prep : 15min | Cook : 30min</p>
+        </a>
+        <!-- end of single recipe -->
+        <!-- single recipe -->
+        <a href="single-recipe-2.html" class="recipe">
+          <img src="recipe-2.jpg" class="img recipe-img" alt="" />
+          <h5>Masala-Maggi-Noodles</h5>
+          <p>Prep : 5min | Cook : 10min</p>
+        </a>
+        <!-- end of single recipe -->
+        <!-- single recipe -->
+        <a href="single-recipe-3.html" class="recipe">
+          <img src="recipe-3.jpg" class="img recipe-img" alt="" />
+          <h5>Chicken Biryani</h5>
+          <p>Prep : 30min | Cook : 1hr 20min</p>
+        </a>
+        <!-- end of single recipe -->
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">RelishingRecipes</span>
+    </p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>

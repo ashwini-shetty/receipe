@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <!-- nav  -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <h1>BonApetit</h1>
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> Home </a>
+        <a href="about.html" class="nav-link"> About </a>
+        <a href="tags.html" class="nav-link"> Tags </a>
+        <a href="recipes.html" class="nav-link"> Recipes </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> Contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav -->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="recipe-4.jpeg" class="img recipe-hero-img" />
+        <article class="recipe-info">
+          <h2>Kheer (Rice Pudding)</h2>
+          <p>
+            A lightly seasoned spice cake lets the wonderful flavor of blackberries shine through in this delectable
+            blackberry cake recipe. —Diana Martin, Moundsville, West Virginia
+          </p>
+          <div class="recipe-icons">
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>5 min.</p>
+            </article>
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>30 min.</p>
+            </article>
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>serving</h5>
+              <p>4 servings</p>
+            </article>
+          </div>
+        </article>
+      </section>
+      <!-- content -->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 1</p>
+              <div></div>
+            </header>
+            <p>
+              Bring coconut milk, milk, and sugar to a boil in a large saucepan over medium heat. 
+              Add rice, reduce the heat to low, and simmer until mixture thickens and rice is tender, about 20 minutes.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 2</p>
+              <div></div>
+            </header>
+            <p>
+              Stir in raisins, cardamom, and rose water; cook for a few more minutes. 
+              Ladle into serving bowls and garnish with almonds and pistachios.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredient">2 cups coconut milk</p>
+            <p class="single-ingredient">2 cups milk</p>
+            <p class="single-ingredient">3 tablespoons white sugar</p>
+            <p class="single-ingredient">½ cup basmati rice</p>
+            <p class="single-ingredient">½ teaspoon ground cardamom</p>
+            <p class="single-ingredient">½ teaspoon rose water (Optional)</p>
+            <p class="single-ingredient">¼ cup sliced almonds, toasted</p>
+            <p class="single-ingredient">¼ cup chopped pistachio nuts</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">RelishingRecipes</span>
+    </p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>

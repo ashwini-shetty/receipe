@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bon Apetit</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <div style="font-size: 30px; color: 00008b;">BonApetit</div>
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="recipe-1.jpg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Carrot Halwa</h2>
+            <p>
+              Carrot halwa, or gajar ka halwa, is a traditional Indian dessert that's deliciously rich and creamy.
+               This recipe uses whole milk, not condensed milk. Serve warm with vanilla ice cream for a real treat!
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>8 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Heat ghee in a large saucepan over medium heat and add carrots. Cook and stir briefly, about 3 minutes. 
+                Pour in milk and increase heat; bring to a boil and cook, stirring constantly, for 5 minutes. 
+                Reduce heat to low and simmer gently, uncovered, and stirring occasionally until moisture evaporates, about 1 hour.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Bring carrot mixture back to a boil; add sugar, raisins, cardamom, and saffron. 
+                Cook and stir until mixture has thickened, about 10 minutes.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Ladle carrot halwa into 8 individual serving dishes. 
+                Top each serving with 1 tablespoon pistachios. Serve warm or chill before serving.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">2 tablespoons ghee or oil</p>
+              <p class="single-ingredient">2 pounds carrots, grated</p>
+              <p class="single-ingredient">1 ½ quarts whole milk</p>
+              <p class="single-ingredient">2 cups white sugar</p>
+              <p class="single-ingredient">½ cup raisins or sultanas</p>
+              <p class="single-ingredient">1 ½ teaspoons ground cardamom</p>
+              <p class="single-ingredient">1 pinch saffron threads</p>
+              <p class="single-ingredient">8 tablespoons chopped pistachio nuts</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p>Use a hand grater to prepare the carrots. Using a food processor makes them too watery.</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">BonApetit</span> Built by
+        <a href="https://www.johnsmilga.com/">Coding Addict</a>
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
